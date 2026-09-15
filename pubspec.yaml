@@ -1,0 +1,14 @@
+name: rick_and_morty_api_client
+description: Dart client for the Rick and Morty REST API. Provides typed models and HTTP datasource for characters, locations and episodes.
+repository: https://github.com/slorduy/rick_and_morty_api_client
+
+environment:
+  sdk: ^3.13.2
+
+# Add regular dependencies here.
+dependencies:
+  http: ^1.2.2
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
