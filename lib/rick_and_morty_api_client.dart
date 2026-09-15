@@ -5,6 +5,10 @@ library;
 // no de la implementación concreta.
 export 'src/datasouces/character_remote_datasource.dart';
 
+// La implementación se exporta para que los consumidores puedan instanciarla
+// via inyección de dependencias sin importar rutas internas del paquete.
+export 'src/datasouces/character_remote_datasource_impl.dart';
+
 // DTOs con serialización JSON
 export 'src/models/character_model.dart';
 export 'src/models/character_response_model.dart';
